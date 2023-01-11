@@ -8,7 +8,6 @@ public class MovieTest {
   @Test
   public void testMovie() {
 
-
     Movie movie = new Movie(
             "1",
             "title",

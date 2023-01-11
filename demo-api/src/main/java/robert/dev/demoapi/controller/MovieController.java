@@ -39,7 +39,7 @@ public class MovieController {
     return repository.updateOne(id, movie);
   }
 
-  @ResponseStatus(HttpStatus.NO_CONTENT)
+  @ResponseStatus(HttpStatus.OK)
   @DeleteMapping("/delete/{id}")
   public void delete(@PathVariable String id) {
     repository.deleteOne(id);
